@@ -3,43 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejemplo de HTML y CSS</title>
+    <title>Ejemplo Sencillo de HTML y CSS</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
         }
         h1 {
-            color: #2c3e50; /* Color para h1 */
-            font-size: 36px; /* Tamaño de h1 */
+            color: blue;
+            font-size: 32px;
         }
         h2 {
-            color: #2980b9; /* Color para h2 */
-            font-size: 28px; /* Tamaño de h2 */
+            color: green;
+            font-size: 28px;
         }
         h3 {
-            color: #27ae60; /* Color para h3 */
-            font-size: 22px; /* Tamaño de h3 */
+            color: orange;
+            font-size: 24px;
         }
         p {
-            color: #34495e; /* Color para párrafos */
-            font-size: 18px; /* Tamaño de párrafos */
+            color: black;
+            font-size: 18px;
         }
     </style>
 </head>
 <body>
 
     <h1>Título Principal</h1>
-    <p>Este es un párrafo bajo el título principal. Aquí puedes añadir información relevante y descriptiva.</p>
+    <p>Este es un párrafo bajo el título principal.</p>
 
     <h2>Título Secundario</h2>
-    <p>Este párrafo acompaña al título secundario. Puedes expandir el contenido según sea necesario.</p>
+    <p>Este párrafo acompaña al título secundario.</p>
 
     <h3>Título Terciario</h3>
-    <p>Finalmente, este es un párrafo bajo el título terciario. Puedes utilizar este espacio para detalles adicionales.</p>
-
-    <p>Este es otro párrafo, que puede servir para seguir desarrollando el tema que estés tratando.</p>
+    <p>Este es un párrafo bajo el título terciario.</p>
 
 </body>
 </html>
