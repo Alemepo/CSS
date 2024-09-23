@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a CSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Introducción a CSS</h1>
+
+    <h2>1. ¿Qué es CSS y para qué sirve?</h2>
+    <p>
+        CSS (Cascading Style Sheets) es un lenguaje de estilo que se utiliza para definir la presentación de documentos HTML o XML. 
+        Su función principal es separar el contenido de su diseño, permitiendo a los desarrolladores controlar aspectos como colores, 
+        fuentes y layout. Esto mejora la experiencia del usuario y facilita el mantenimiento de las páginas web.
+    </p>
+
+    <h2>2. Formas de aplicar CSS en HTML</h2>
+    <h3>CSS en línea (inline)</h3>
+    <p>
+        Se aplica directamente en el atributo <code>style</code> de un elemento HTML.
+        <br>
+        <code>&lt;p style="color: blue; font-size: 20px;"&gt;Texto azul.&lt;/p&gt;</code>
+    </p>
+
+    <h3>CSS en el encabezado (internal)</h3>
+    <p>
+        Se define en la etiqueta <code>&lt;style&gt;</code> dentro de la sección <code>&lt;head&gt;</code>.
+        <br>
+        <code>
+            &lt;head&gt;<br>
+                &lt;style&gt;<br>
+                    p { color: green; font-size: 18px; }<br>
+                &lt;/style&gt;<br>
+            &lt;/head&gt;
+        </code>
+    </p>
+
+    <h3>CSS externo</h3>
+    <p>
+        Se vincula un archivo .css externo con la etiqueta <code>&lt;link&gt;</code> en el encabezado.
+        <br>
+        <code>
+            &lt;head&gt;<br>
+                &lt;link rel="stylesheet" href="styles.css"&gt;<br>
+            &lt;/head&gt;
+        </code>
+    </p>
+
+    <h2>3. Recursos de aprendizaje</h2>
+    <ol>
+        <li>
+            <strong>MDN Web Docs</strong>: Documentación completa sobre CSS, ideal para todos los niveles.
+        </li>
+        <li>
+            <strong>CSS-Tricks</strong>: Artículos y ejemplos prácticos sobre CSS y diseño web.
+        </li>
+        <li>
+            <strong>Codecademy</strong>: Plataforma interactiva para aprender CSS a través de ejercicios prácticos.
+        </li>
+    </ol>
+
+</body>
+</html>
+
