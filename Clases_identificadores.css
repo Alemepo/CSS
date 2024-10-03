@@ -5,12 +5,12 @@
 }
 
 .texto {
-    color: gray;
+    color: rgb(128, 128, 128);
     margin: 10px 0;
 }
 
 .boton {
-    background-color: green;
+    background-color: rgb(124, 0, 128);
     color: white;
     border: none;
     padding: 10px 20px;
