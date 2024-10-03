@@ -1,0 +1,22 @@
+/* Clases_identificadores.css */
+#titulo {
+    color: blue;
+    font-size: 2em;
+}
+
+.texto {
+    color: gray;
+    margin: 10px 0;
+}
+
+.boton {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#botonEnviar {
+    border-radius: 5px;
+}
