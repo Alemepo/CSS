@@ -1,0 +1,20 @@
+/* id_clases.css */
+.titulo {
+    font-size: 2em;
+    color: darkblue;
+}
+
+#destacado {
+    background-color: yellow;
+    color: red;
+}
+
+.contenido {
+    color: black;
+    margin: 10px 0;
+}
+
+.contenido.especial {
+    background-color: lightgreen;
+    border: 2px solid darkgreen;
+}
